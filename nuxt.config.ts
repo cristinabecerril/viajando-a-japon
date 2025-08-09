@@ -1,7 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  target: 'static',
+  compatibilityDate: '2025-07-15',
+  devtools: { enabled: true },
   app: {
-    baseURL: '/viajando-a-japon/' // muy importante para GitHub Pages
+    baseURL: '/viajando-a-japon/'
   }
 })
